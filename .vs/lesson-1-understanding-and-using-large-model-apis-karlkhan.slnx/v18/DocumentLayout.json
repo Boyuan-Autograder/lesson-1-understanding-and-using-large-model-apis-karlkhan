@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\app.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:app.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\grade.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:grade.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-25T08:43:10.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-25T08:43:09.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "grade.sh",
+              "DocumentMoniker": "D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\grade.sh",
+              "RelativeDocumentMoniker": "grade.sh",
+              "ToolTip": "D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\grade.sh",
+              "RelativeToolTip": "grade.sh",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-25T08:43:07.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.py",
+              "DocumentMoniker": "D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\app.py",
+              "RelativeDocumentMoniker": "app.py",
+              "ToolTip": "D:\\Karl Data\\\u6587\u6863\\GitHub\\lesson-1-understanding-and-using-large-model-apis-karlkhan\\app.py",
+              "RelativeToolTip": "app.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-25T08:42:57.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
