@@ -7,33 +7,33 @@ load_dotenv()
 TOKEN = os.getenv("TOKEN")
 
 def chat_stream(user_text):
-    # 如果你是用的是硅基流动，可以直接使用下面的URL
-    # url = "https://api.siliconflow.cn/v1/chat/completions"
-    url = ____TO BE FILLED____
+    # 1. 硅基流动聊天完成接口
+    url = "https://api.siliconflow.cn/v1/chat/completions"
     payload = {
-        "model": "____TO BE FILLED____",
-        "messages": [{"role": "user", ____TO BE FILLED____}],
-        "stream": ____TO BE FILLED____
+        "model": "Qwen/Qwen2.5-7B-Instruct",   # 2. 模型名称
+        "messages": [{"role": "user", "content": user_text}],  # 3. 用户消息
+        "stream": True                         # 4. 开启流式
     }
     headers = {
-        "Authorization": ____TO BE FILLED____,
-        "Content-Type": ____TO BE FILLED____
+        "Authorization": f"Bearer {TOKEN}",    # 5. 认证头
+        "Content-Type": "application/json"     # 6. 数据格式
     }
 
-    with requests.____TO BE FILLED____(url, headers=headers, json=payload, stream=____TO BE FILLED____) as r:
+    # 7. 使用 POST 方法，并开启流
+    with requests.post(url, headers=headers, json=payload, stream=True) as r:
         for line in r.iter_lines():
             if not line:
                 continue
             decoded = line.decode("utf-8").strip()
-            if decoded == ____TO BE FILLED____:
+            if decoded == "data: [DONE]":      # 8. 流结束标志
                 break
-            if decoded.startswith(____TO BE FILLED____):
+            if decoded.startswith("data: "):   # 9. 有效 chunk
                 try:
-                    data_json = json.loads(decoded[len(____TO BE FILLED____):])
-                    choices = data_json.get(____TO BE FILLED____, [])
+                    data_json = json.loads(decoded[len("data: "):])  # 10. 去掉前缀
+                    choices = data_json.get("choices", [])           # 11. 取 choices
                     for choice in choices:
-                        delta = choice.get(____TO BE FILLED____, {})
-                        text = delta.get(____TO BE FILLED____)
+                        delta = choice.get("delta", {})              # 12. 取 delta
+                        text = delta.get("content")                  # 13. 取内容
                         if text:
                             print(text, end="", flush=True)
                 except json.JSONDecodeError:
